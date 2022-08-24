@@ -1,0 +1,56 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-socialsite-dev-103228-authRole",
+      "UnauthRoleArn": "arn:aws:iam::544504287652:role/amplify-socialsite-dev-103228-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::544504287652:role/amplify-socialsite-dev-103228-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-socialsite-dev-103228-deployment",
+      "UnauthRoleName": "amplify-socialsite-dev-103228-unauthRole",
+      "StackName": "amplify-socialsite-dev-103228",
+      "StackId": "arn:aws:cloudformation:us-east-2:544504287652:stack/amplify-socialsite-dev-103228/eaab88c0-6898-11eb-9dd6-06d5185f22d8",
+      "AmplifyAppId": "d3p9opb0b7q08b"
+    },
+    "categories": {
+      "auth": {
+        "socialsite4ef4c834": {}
+      }
+    }
+  },
+  "env": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-socialsite-env-151056-authRole",
+      "UnauthRoleArn": "arn:aws:iam::544504287652:role/amplify-socialsite-env-151056-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::544504287652:role/amplify-socialsite-env-151056-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-socialsite-env-151056-deployment",
+      "UnauthRoleName": "amplify-socialsite-env-151056-unauthRole",
+      "StackName": "amplify-socialsite-env-151056",
+      "StackId": "arn:aws:cloudformation:us-east-1:544504287652:stack/amplify-socialsite-env-151056/20247460-d916-11eb-aa2e-126b6ef530bb",
+      "AmplifyAppId": "dz0fm3ep6q0hk"
+    },
+    "categories": {
+      "auth": {
+        "socialsite2d1add9f": {
+          "userPoolId": "us-east-1_QprvayqPK",
+          "userPoolName": "natureTalks",
+          "webClientId": "6v16ib3nc5le61ce5f66s2d0s4",
+          "nativeClientId": "7suheb0afi4docvl3qj5gpvtdo",
+          "identityPoolId": "us-east-1:c06e6b89-7e19-4c6d-a83e-13fbc49255da",
+          "identityPoolName": "myNatureApp",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::544504287652:role/Cognito_myNatureAppAuth_Role",
+          "authRoleName": "Cognito_myNatureAppAuth_Role",
+          "unauthRoleArn": "arn:aws:iam::544504287652:role/Cognito_myNatureAppUnauth_Role",
+          "unauthRoleName": "Cognito_myNatureAppUnauth_Role"
+        }
+      },
+      "storage": {
+        "socialsite978fcc68": {
+          "bucketName": "green-discussions-post-images",
+          "region": "us-east-2"
+        }
+      }
+    }
+  }
+}

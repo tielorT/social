@@ -1,0 +1,6 @@
+{
+  "authSelections": "identityPoolAndUserPool",
+  "resourceName": "socialsite2d1add9f",
+  "serviceType": "imported",
+  "region": "us-east-1"
+}

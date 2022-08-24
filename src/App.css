@@ -1,0 +1,44 @@
+.App {
+  text-align: center;   
+  
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.searchTagBar{
+    border-bottom: 1px solid #28A745;
+    }
+  
+
+
+
+
+
+.mainPageB:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #28A745;
+  transform: scale(1,1.1);
+}
+
+
+.active {
+  border-bottom: 1px solid #28A745;
+  transform: scale(1,1.1);
+}
