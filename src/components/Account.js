@@ -59,15 +59,15 @@ function Account({posts , user}) {
 
        const userPosts = filterPosts(posts)
         return(
-            <div className='container mt-5 ' >
-               <div className='row'> 
-                    <div className='card w-25'>
+            <div className='container ' >
+               <div className='row accountCenter'> 
+                    <div className='card ' style={{marginBottom: '10px'}}>
                         <div >
                         { user ? <img className='card-img rounded-circle' src={user.attributes['custom:ImgUrl']+user.attributes.sub} style={profileImgStyle}/> : null }
                         </div>
-                    <div className='card-body mt-4'>
+                    <div className='card-body mt-4' >
                        <h4 style={{fontFamily: 'courier,arial,helvetica'}}>{user.username}</h4>
-                       <ul>
+                       <ul style={{display: 'flex', flexDirection: 'column'}}>
                                 <button class="btn btn-outline-success m-1" data-toggle='modal' data-target='#changePicture'>change profile picture</button>
                                 <button class="btn btn-outline-success m-1" data-toggle='modal' data-target='#deleteAccount'>delete account</button>
                             </ul>

@@ -117,8 +117,15 @@ code {
   align-items: flex-start;
 }
 
+.accountCenter {
+  margin: 10px;
+}
 
 @media (max-width: 700px) {
+  .accountCenter {
+    display: flex;
+    flex-direction: column;
+  }
   .cards {
     justify-content: center;
   }
