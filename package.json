@@ -1,7 +1,7 @@
 {
   "name": "social_site",
   "version": "0.1.0",
-  "homepage": "https://tielorT.github.io/social_site",
+  "homepage": "https://tielorT.github.io",
   "private": true,
   "dependencies": {
     "@aws-amplify/ui-react": "^3.1.0",

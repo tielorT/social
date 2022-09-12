@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(fileUpload());
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "tielorT.github.io",
     credentials: true,
 }));
 app.use(session({
@@ -88,8 +88,8 @@ app.use('/users', usersRouter);
 app.use('/comments', commentsRouter);
 
 
-const uri = 'mongodb://localhost:27017/socialApp';
-mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true});
+const uri = process.env.MONGO_URI;
+mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true,  useUnifiedTopology: true});
 const connection = mongoose.connection;
 connection.once('open', () => {
     console.log("mongodb database connected successfully");
