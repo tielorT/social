@@ -33,7 +33,7 @@ function Login({ onSignin  }) {
                  <input type='button ' value='Login' onClick={login} className='btn btn-success btn-block mt-4' />
               </form>
               <div>
-                 Don't have an account? <button onClick={() => window.location = '/signup'}>Sign Up</button>
+                 Don't have an account? <button onClick={() => history.push('/signup')}>Sign Up</button>
                 </div>
            </div>
         )
