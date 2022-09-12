@@ -16,7 +16,7 @@ function Welcome({user}){
 
                     { !user ? <div className='card m-3' style={{width: '18rem', backgroundColor: '#F4E8FF',borderTop:'1px solid green'}}>
                       <h5 className='card-title'>login or signup!</h5>  
-                      <p>click <a href='/login'>here</a> to begin sharing your findings with everyone.</p>
+                      <p>click <a href='https://tielort.github.io/login'>here</a> to begin sharing your findings with everyone.</p>
                     </div> : <div className='card m-3 d-flex justify-content-center' style={{width: '18rem', backgroundColor: '#F4E8FF',borderTop:'1px solid green'}}>
                       <p className='text-center'>dont be shy leave a post!</p>  
                     </div> }
