@@ -28,4 +28,4 @@ function Welcome({user}){
     )
 }
 
-export default Welcome;
+export default Welcome
